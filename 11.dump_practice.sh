@@ -8,3 +8,5 @@ mysqldump -u root -p board -r > dumpfile.sql
 git add .
 git  commit -m "mariadb syntax"
 git push origin main
+
+mysqldump -u root -p board < dumpfile.sql
